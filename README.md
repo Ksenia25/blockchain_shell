@@ -4,9 +4,9 @@ Run your application (for example Ethereum Wallet).
 
 Executable "geth" must be installed in your system (for example from Ethereum Wallet). 
 
-"Geth" is started in server mode by startup your application in  WS-RPC server mode.
+"Geth" can be run automatically at startup Ethereum Wallet or you can independently run "geth" in WS-RPC server mode through the 
 
-For example: geth --testnet --ws --fast.
+command:geth --testnet --ws --fast
 
 Executable file "geth" must be shown in variable "PATH".
 
