@@ -1,12 +1,12 @@
 # blockchain_shell
 
-Run your system (for example Ethereum Wallet).
+Run your application (for example Ethereum Wallet).
 
 Executable "geth" must be installed in your system (for example from Ethereum Wallet). 
 
-"Geth" starts automatically in server mode on startup your system. Also "geth" can be started using special script:
+"Geth" is started by startup your application in  WS-RPC server mode.
 
-For example: /home/Ksenia/Ethereum-Wallet-linux64-0-8-2/resources/node/geth/geth --testnet --fast attach
+For example: geth --testnet --ws --fast.
 
 Executable file "geth" must be shown in variable "PATH".
 
